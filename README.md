@@ -1,16 +1,41 @@
 # fitted_fractionally_app
 
-A new Flutter project.
+FittedBox vs. FractionallySizedBox Demo
 
-## Getting Started
+A simple, interactive Flutter application demonstrating two powerful layout widgets essential for responsive design.
 
-This project is a starting point for a Flutter application.
+ Widget Description
 
-A few resources to get you started if this is your first Flutter project:
+This project showcases how FittedBox manages content scaling to prevent overflow, and how FractionallySizedBox handles responsive container sizing using fractions (percentages) of the parent space.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+ Run Instructions
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Clone the Repository:
+
+git clone [https://github.com/your-username/fitted_fractionally_app.git](https://github.com/your-username/fitted_fractionally_app.git)
+cd fitted_fractionally_app
+
+
+Run the App:
+
+flutter run
+
+
+Use the hamburger menu (top-left) to switch between the two demos. Use the sliders in each demo to see the scaling and relative sizing happen in real-time.
+
+✨ Demonstrated Properties (The Required Three Attributes)
+
+The following three attributes were selected and demonstrated during the in-class presentation:
+
+FittedBox.fit
+
+Description: Determines the scaling algorithm used to make the child fit the box (e.g., BoxFit.contain vs. BoxFit.cover). This controls whether the content is fully visible or if it completely fills the space.
+
+FittedBox.alignment
+
+Description: Specifies the position of the scaled child within the parent container if the child does not perfectly fill the space. Used to align the scaled content (e.g., Alignment. center, Alignment.topLeft).
+
+FractionallySizedBox.widthFactor
+
+Description: A double value between 0.0 and 1.0 that sets the child's width as a fraction (percentage) of the parent's available width. This is demonstrated interactively with the slider.
+
