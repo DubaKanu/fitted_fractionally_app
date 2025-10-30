@@ -12,7 +12,7 @@ This project showcases how FittedBox manages content scaling to prevent overflow
 
 Clone the Repository:
 
-git clone [https://github.com/your-username/fitted_fractionally_app.git](https://github.com/your-username/fitted_fractionally_app.git)
+git clone https://github.com/DubaKanu/fitted_fractionally_app.git
 cd fitted_fractionally_app
 
 
@@ -38,4 +38,5 @@ Description: Specifies the position of the scaled child within the parent contai
 FractionallySizedBox.widthFactor
 
 Description: A double value between 0.0 and 1.0 that sets the child's width as a fraction (percentage) of the parent's available width. This is demonstrated interactively with the slider.
+
 
